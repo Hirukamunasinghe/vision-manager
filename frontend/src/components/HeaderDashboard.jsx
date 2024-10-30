@@ -23,6 +23,7 @@ const HeadDashboard = () => {
         <div className="flex min-h-screen bg-gray-100">
             {/* Sidebar */}
             <Sidebar/>
+            
             {/* Main Content */}
             <main className="flex-1 bg-white p-10">
                 <h1 className="text-4xl font-extrabold text-gray-600 mb-6">Dashboard</h1>
