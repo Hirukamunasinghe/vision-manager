@@ -5,7 +5,7 @@ import { FaLink } from "react-icons/fa6";
 const Sidebar = () => {
     return (
         <div className="flex min-h-screen">
-            <aside className="bg-gray-800 text-white w-64  flex flex-col gap-[350px] py-7 px-5 overflow-hidden">
+            <aside className="fixed h-full bg-gray-800 text-white w-64 flex flex-col gap-[350px] py-7 px-5 overflow-hidden">
                 <div>
                     <a className="sidebar-brand flex items-center justify-center py-3" href="/vm/dashboard">
                         <h4 className="login-heading flex items-center text-white">

@@ -25,7 +25,7 @@ const HeadDashboard = () => {
             <Sidebar/>
             
             {/* Main Content */}
-            <main className="flex-1 bg-white p-10">
+            <main className="ml-64 flex-1 bg-white p-10">
                 <h1 className="text-4xl font-extrabold text-gray-600 mb-6">Dashboard</h1>
                 
                 {/* Video Input Section */}

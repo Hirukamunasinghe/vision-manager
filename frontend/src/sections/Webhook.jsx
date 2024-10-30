@@ -34,7 +34,7 @@ const Webhook = () => {
     return (
         <div className="flex min-h-screen">
             <Sidebar />
-            <div className="flex-grow p-4">
+            <div className="ml-64 flex-grow p-4">
                 <h2 className="text-4xl font-extrabold text-gray-600 mb-6">Webhook Subscriptions</h2>
                 <div className="grid grid-cols-3 gap-4 mb-4">
                     <div className="form-group">
