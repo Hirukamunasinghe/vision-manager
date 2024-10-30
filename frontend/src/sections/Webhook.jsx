@@ -42,7 +42,6 @@ const Webhook = () => {
                         <select
                             className="form-select border rounded-lg p-2 w-full"
                             id="video_friendly_name"
-                            // value
                             value={videoFriendlyName}
                             onChange={(e) => setVideoFriendlyName(e.target.value)}
                         >
