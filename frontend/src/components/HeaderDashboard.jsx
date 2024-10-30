@@ -103,7 +103,7 @@ const HeaderDashboard = () => {
                                 </div>
                             )}
 
-                            {/* Store Processed Video Stream */}
+                            {/*_ Store Processed Video Stream */}
                             <div className="flex flex-col space-y-2">
                                 <label className="text-sm font-medium text-gray-700">Store Processed Video Stream</label>
                                 <button
