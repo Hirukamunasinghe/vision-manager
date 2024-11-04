@@ -5,8 +5,8 @@ import logovison from '../assets/logo 1.png';
 const Sidebar = ({ isOpen, toggleSidebar }) => {
   return (
     <div
-      className={`fixed top-0 left-0 h-full bg-blue-800 text-white p-4 transition-all duration-300 ${
-        isOpen ? "w-64" : "w-16"
+      className={`fixed top-0 left-0 h-full bg-[#242B33] text-white p-4 transition-all duration-300 ${
+        isOpen ? "w-64" : "w-[80px]"
       }`}
     >
       {/* Logo and Toggle Button */}

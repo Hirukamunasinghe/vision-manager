@@ -65,7 +65,7 @@ export default function Video() {
   ];
 
   return (
-    <div className="flex justify-center">
+    <div className="flex justify-center gap-[70px]">
       {videos.map((video, index) => (
         <VideoCard
           key={index}
