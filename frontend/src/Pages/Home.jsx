@@ -9,7 +9,7 @@ const Home = () => {
         console.log("Login function called."); // Debugging log
 
         const dataForm = new FormData(document.getElementById("login_form"));
-        let formData = {
+        const formData = {
             username: dataForm.get("username").trim(),
             password: dataForm.get("password").trim()
         };
@@ -30,7 +30,10 @@ const Home = () => {
 
     return (
         <section className="min-h-screen flex">
+            {/* Sidebar image (hidden on smaller screens) */}
             <div className="hidden md:flex w-1/2 bg-cover bg-center" style={{ backgroundImage: "url('/src/assets/login_page_side_img.png')" }}></div>
+
+            {/* Login form */}
             <div className="w-full md:w-1/2 flex items-center justify-center p-8">
                 <div className="w-full max-w-md">
                     <div className="text-center mb-8">
